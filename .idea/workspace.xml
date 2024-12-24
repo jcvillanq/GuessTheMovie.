@@ -4,27 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="522ac50d-16d7-4c95-ad89-30cd2091687e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../GuessTheMovie/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuessTheMovie/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuessTheMovie/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuessTheMovie/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuessTheMovie/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuessTheMovie/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuessTheMovie/GuessTheMovie..iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GuessTheMovie/src/VillanJuanCarlosMain.java" afterDir="false" />
+    <list default="true" id="522ac50d-16d7-4c95-ad89-30cd2091687e" name="Changes" comment="init and create structure.">
+      <change afterPath="$PROJECT_DIR$/../GuessTheMovie/src/Juego.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GuessTheMovie/src/Jugador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheMovie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GuessTheMovie/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheMovie/src/VillanJuanCarlosMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GuessTheMovie/src/VillanJuanCarlosMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../GuessTheMovie" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jcvillanq&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jcvillanq/GuessTheMovie..git&quot;,
+    &quot;accountId&quot;: &quot;08f88cb6-a248-4352-868b-9f7de79f82be&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2qcHEexoAd28JBiC4edJOMaCmwg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,7 +53,8 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/La Salle/M03/UF2/PracticaUF2",
-    "onboarding.tips.debug.path": "D:/La Salle/M03/UF2/PracticaUF2/GuessTheMovie/src/Main.java"
+    "onboarding.tips.debug.path": "D:/La Salle/M03/UF2/PracticaUF2/GuessTheMovie/src/Main.java",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -50,6 +66,19 @@
       <option name="presentableId" value="Default" />
       <updated>1734954836145</updated>
     </task>
+    <task id="LOCAL-00001" summary="init and create structure.">
+      <option name="closed" value="true" />
+      <created>1734955851208</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734955851208</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init and create structure." />
+    <option name="LAST_COMMIT_MESSAGE" value="init and create structure." />
   </component>
 </project>
