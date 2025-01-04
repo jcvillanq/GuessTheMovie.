@@ -7,7 +7,7 @@ import java.lang.*;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class VillanJuanCarlosMain {
 
-    Scanner scanner = new Scanner(System.in);
+    private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
     VillanJuanCarlosMain programa =  new VillanJuanCarlosMain();
@@ -37,10 +37,12 @@ public class VillanJuanCarlosMain {
 
     public void verificarArchivos(){
         File archivoPeliculas = new File("peliculas.txt");
+        File ranking = new File("ranking.dat");
         if (!archivoPeliculas.exists()) {
             archivoPeliculasPorDefecto();
-        }else{
-            System.out.println("OK");
+        }
+        if (!ranking.exists()) {
+            crearArchivoRankingVacio();
         }
     }
 
@@ -51,6 +53,12 @@ public class VillanJuanCarlosMain {
         //intrucciones para rellenar archivo peliculas.txt
         System.out.println("Por favor, ingrese los títulos de las películas para crear el archivo:");
         System.out.println("(Escriba 'FIN' para terminar de ingresar títulos)");
+        /*
+        * Creamos el archivo peliculas.txt.
+        * WHILE para recoger las peliculas con scanner y cuando el usuario ponga FIN(ignorando mayus) salimos con un break que rompre el bucle.
+        * Luego usamos un try - catch para cargar las peliculas con un bucle for.
+        * Finalmente damos un mensaje de que todo ha funcionado.
+        * */
 
         while (true) {
             System.out.print("Ingrese el título de la película: ");
@@ -64,15 +72,25 @@ public class VillanJuanCarlosMain {
             for (String pelicula : peliculas) {
                 stream.println(pelicula);
             }
-             System.out.println("Archivo 'peliculs.txt' creado con éxito.");
+             System.out.println("Archivo 'pelicula.txt' creado con éxito.");
 
         }catch (IOException e) {
             System.out.println("Error al crear archivo de películas por defecto.");
         }
     }
+    private void crearArchivoRankingVacio() {
+        try (ObjectOutputStream oos = new ObjectOutputStream(
+                new FileOutputStream("ranking.dat"))) {
+            ArrayList<RegistroRanking> rankingVacio = new ArrayList<>();
+            oos.writeObject(rankingVacio);
+        } catch (IOException e) {
+            System.out.println("Error al crear archivo de ranking vacío.");
+        }
+    }
+
     private void ejecutarApp() {
-       // Juego nuevo_juego = new Juego();
-       // nuevo_juego.iniciar();
+       Juego nuevo_juego = new Juego();
+       nuevo_juego.iniciar();
     }
 
 

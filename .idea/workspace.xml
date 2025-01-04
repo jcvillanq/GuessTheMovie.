@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="522ac50d-16d7-4c95-ad89-30cd2091687e" name="Changes" comment="init and create structure.">
-      <change beforePath="$PROJECT_DIR$/../GuessTheMovie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GuessTheMovie/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheMovie/src/Juego.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GuessTheMovie/src/Juego.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GuessTheMovie/src/VillanJuanCarlosMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GuessTheMovie/src/VillanJuanCarlosMain.java" afterDir="false" />
+    <list default="true" id="522ac50d-16d7-4c95-ad89-30cd2091687e" name="Changes" comment="create peliculas.txt">
+      <change afterPath="$PROJECT_DIR$/src/Ranking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RegistroRanking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Juego.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Juego.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jugador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jugador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VillanJuanCarlosMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VillanJuanCarlosMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/peliculas.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,41 +26,28 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../GuessTheMovie" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;jcvillanq&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/jcvillanq/GuessTheMovie..git&quot;,
-    &quot;accountId&quot;: &quot;08f88cb6-a248-4352-868b-9f7de79f82be&quot;
-  }
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
-}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2qcHEexoAd28JBiC4edJOMaCmwg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.VillanJuanCarlosMain.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/La Salle/M03/UF2/PracticaUF2",
-    "onboarding.tips.debug.path": "D:/La Salle/M03/UF2/PracticaUF2/GuessTheMovie/src/Main.java",
-    "run.code.analysis.last.selected.profile": "pProject Default"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="VillanJuanCarlosMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="VillanJuanCarlosMain" />
@@ -88,31 +79,31 @@
       <option name="project" value="LOCAL" />
       <updated>1734955851208</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="create peliculas.txt">
+      <option name="closed" value="true" />
+      <created>1735911281738</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1735911281738</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init and create structure." />
-    <option name="LAST_COMMIT_MESSAGE" value="init and create structure." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/../GuessTheMovie/src/VillanJuanCarlosMain.java</url>
-          <line>10</line>
-          <properties class="VillanJuanCarlosMain" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../GuessTheMovie/src/VillanJuanCarlosMain.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="create peliculas.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="create peliculas.txt" />
   </component>
 </project>
